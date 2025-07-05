@@ -1,0 +1,15 @@
+[project]
+name = "mcp-pet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.14",
+    "psycopg2>=2.9.10",
+    "pydantic>=2.11.7",
+    "sqlalchemy>=2.0.41",
+    "typing>=3.10.0.0",
+    "uvicorn>=0.35.0",
+]
